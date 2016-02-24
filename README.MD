@@ -5,4 +5,6 @@ intialize git
 make read me
   touch README.MD
 install jasmine globally (once)
-  npm -g jasmine
+  npm install -g jasmine
+initialize jasmine
+  jasmine init
