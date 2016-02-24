@@ -10,3 +10,24 @@ initialize jasmine
   jasmine init
 make library ("lib") directory, add miles.js to it
 add miles_spec.js to spec folder but outside support folder
+
+
+
+    in miles.js
+    module.exports =  {
+      someFunction: function(){
+        return("runnin stuff foreal");
+      }
+    }   
+
+
+    in miles_spec.js
+    var miles = require("../lib/miles")
+
+    describe("Miles", function() {
+      it("is our master plan", function() {
+        expect(miles.someFunction()).toEqual("runnin stuff foreal")
+      });
+    });
+
+END OF TESTING ENVIORNMENT SETUP
