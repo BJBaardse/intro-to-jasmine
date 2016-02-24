@@ -31,3 +31,6 @@ add miles_spec.js to spec folder but outside support folder
     });
 
 END OF TESTING ENVIORNMENT SETUP
+make sure youre getting good reds and greens with your tests because
+otherwise the debugging process will leave you astray
+robust testing is better
