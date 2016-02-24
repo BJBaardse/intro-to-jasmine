@@ -1,3 +1,9 @@
+OBJECTIVES:
+1. Describe & employ red green refactor
+2. Describe TDD
+3. Use Jasmine and mocha
+
+
 make directory mkdir
   intro-to-jasmine
 intialize git
